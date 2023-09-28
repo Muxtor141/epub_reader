@@ -26,7 +26,7 @@ android {
     compileSdkVersion 33
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 23
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
@@ -35,7 +35,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.kaushikgodhani:vocsy_epub_viewer_android_folioreader:V4'
+    implementation 'com.github.Muxtor141:FolioReader-Android:1.0.0'
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.8'
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.7'
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"

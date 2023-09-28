@@ -147,7 +147,7 @@ class _MyAppState extends State<MyApp> {
                           print('LOCATOR: $locator');
                         });
                         await VocsyEpub.openAsset(
-                          'assets/4.epub',
+                          'assets/world_book.epub',
                           lastLocation: EpubLocator.fromJson({
                             "bookId": "2239",
                             "href": "/OEBPS/ch06.xhtml",
